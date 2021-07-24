@@ -22,7 +22,7 @@ body{
 .links pre{
 font-family: serif;
 }
-TABLE,TH,TD{
+TABLE,TH,td{
 	text-align: center;
 	border: 2PX solid black;
 	padding: 5PX;
@@ -32,6 +32,12 @@ TABLE,TH,TD{
 {
 	position: relative;
 	text-align: left;
-	display: inline;
+}
+.center
+{
+	position: absolute;
+	margin-left: 45%;
+	padding-top: 400px;
+	margin-bottom: 20px;
 }
 
