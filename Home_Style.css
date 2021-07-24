@@ -1,0 +1,36 @@
+
+*
+{
+	margin:0;
+	padding:0;
+}
+#back1
+{
+	background-image:url(Background1.jpg) ;
+	background-repeat: no-repeat;
+	font-family: serif;
+	background-size: cover;
+}
+
+.links
+{
+	text-align:right;
+	padding-right:40px;
+	}
+.links pre{
+font-family: serif;
+}
+
+
+#Contacts
+{
+	position: relative;
+	text-align: center;
+}
+.center
+{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
