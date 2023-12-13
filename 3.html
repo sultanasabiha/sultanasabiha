@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body>
+
+  <form id="RegistrationForm">
+    <h2 id="reg">Customer Information</h2>
+    <label for="name" >Name:</label>
+    <input type="text"  id="name" name="name" required><br><br>
+    <label for="contact">Phone No.:</label>
+    <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required><br><br>
+    <label for="days">Select Prefered Days:</label><br>
+        <input type="checkbox" id="mon">
+        <label for="day1">Monday</label><br><br>
+        <input type="checkbox" id="tue" value="Tuesday">
+        <label for="day2">Tuesday</label><br><br>
+        <input type="checkbox" id="wed" value="Wednesday">
+        <label for="day3">Wednesday</label><br><br>
+        <input type="checkbox" id="thur" name="thur" value="Thursday">
+        <label for="day4">Thursday</label><br><br>
+        <input type="checkbox" id="fri" name="fri" value="Friday">
+        <label for="day5">Friday</label><br><br>
+        <input type="checkbox" id="sat" name="sat" value="Saturday">
+        <label for="day6">Saturday</label><br><br>
+        <input type="checkbox" id="sun" name="sun" value="Sunday">
+        <label for="day7">Sunday</label><br><br>
+
+        <fieldset>
+            <legend>Favourite Item:</legend>
+            <div>
+              <input type="radio" id="clothes" name="clothes" value="clothes"/>
+              <label for="clothes">Clothing</label>
+            </div>
+            <div>
+              <input type="radio" id="furnishes" name="furnishes" value="furnishes" />
+              <label for="furnishes">Furnishing</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="elec" name="elec" value="electronics" />
+              <label for="elec">Electronics</label>
+            </div>
+            <div>
+                <input type="radio" id="gro" name="gro" value="groceries" />
+                <label for="elec">Groceries</label>
+              </div>
+          </fieldset><br><br>
+        <label for="name" >Suggestions:</label>
+        <input type="text"  id="name" name="name" required><br><br>
+        <input type="submit" value="Submit">
+
+        
+      </form>
+
+    <button type="submit" name="reset" id="reset">Reset</button>
+  </form>
+  </body>
+  </html>
